@@ -23,11 +23,13 @@ img {
     gap: 1rem;
     overflow-x: scroll; /* permet de scroller horizontalement */
     scroll-behavior: smooth; /* animation de défilement */
+    scroll-snap-type: x mandatory; /* permet de scroller par blocs */
 }
 .carrousel_ecran {
       /* largeur du parent pour chaque enfant */
       /* permet de garder toute la largeur du parent */
     flex:none;
+    scroll-snap-align: start; /* aligne les enfants par blocs */
 }
 .carrousel_ecran figure {
       /* enlève les marges par défaut */
