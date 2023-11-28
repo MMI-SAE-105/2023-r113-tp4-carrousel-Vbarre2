@@ -31,7 +31,7 @@ img {
       /* enlève les marges par défaut */
     padding: 100px;
 }
-.carroussel_liste-liens{
+.caroussel_liste-liens{
     display: flex;
-    gap: 5rem ;
+    gap: 5rem;
 }
