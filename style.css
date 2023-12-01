@@ -36,8 +36,13 @@ img {
     padding: 100px;
 }
 .caroussel_liste-liens{
-    display: flex;
-    gap: 5rem;
+    display: flex; /* aligne horizontalement les enfants */
+    justify-content: center; /* centre horizontalement les enfants */
+    gap: 1rem; /* enlève les marges par défaut */
+    list-style: none; /* enlève les padding par défaut */
+    margin: 0; /* enlève les puces par défaut */
+    padding: 0; /* espace entre les enfants */
+
 }
 .carrousel {
     position: relative;
